@@ -99,7 +99,7 @@ Several projects hint at the direction of perceptual grounding, but none meet th
 **Key contrast:** GPGM requires all modalities to be captured **simultaneously and immutably**, forming an inseparable data record. Existing models are *fractional*—each explores a slice of the perceptual field, but none implement the closed, fail-closed circle of co-occurrence that prevents artifact stitching or modality drift.
 
 ---
-<img width="1043" height="1474" alt="image" src="https://github.com/user-attachments/assets/cb9bcf36-b5e1-456a-8a93-e06323ce22eb" />
+<img width="743" height="1174" alt="image" src="https://github.com/user-attachments/assets/cb9bcf36-b5e1-456a-8a93-e06323ce22eb" />
 
 
 ## 9. Conclusion
