@@ -1,8 +1,11 @@
 # General-Perceptual-Generative-Model-GPGM
 
 **General Perceptual Generative Model (GPGM)**
-**Author:** 
-Jonathon Fitzhugh Marshall
+
+**Author:** Jonathon Fitzhugh Marshall 
+
+**Date:** 09-27-25
+
 **Concept White Paper – Draft**
 
 ---
