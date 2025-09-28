@@ -87,7 +87,6 @@ Once perceptual clusters are stable, a lightweight language model can be trained
 
 ## 5. Infrastructure & Deployment  
 
-This section fills out your infrastructure with field-level, depot-level, and network-level detail.
 
 ### Field Units & Capture Fleet  
 Each vehicle or mobile rig carries sensor arrays, a crate interface, and a timing cluster. Human participants (e.g. drivers) may contribute affective sensors optionally.
