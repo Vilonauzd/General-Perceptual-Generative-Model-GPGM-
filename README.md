@@ -24,7 +24,10 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Human analogy**: Infants learn by clustering multimodal sensory inputs (sight, sound, touch, affect) before later mapping them to symbolic language.
 * **Opportunity**: By emulating this developmental trajectory, AI systems can learn grounded world models that are less prone to artifacts and more capable of genuine perceptual generalization.
 
-<img width="804" height="700" alt="image" src="https://github.com/user-attachments/assets/f1466f0f-454d-44bb-8a78-a7046a856f89" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f1466f0f-454d-44bb-8a78-a7046a856f89" alt="GPGM Motivation Mindmap" width="804" height="700">
+</p>
+
 
 
 ---
@@ -36,7 +39,9 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Layered symbolic interface**: Text or phoneme labels are introduced later as optional overlays, analogous to how humans learn to name objects they already perceive.
 * **Fail-closed capture**: Data integrity is enforced through redundancy, hashing, and secure wipe policies; partial or stitched segments are disallowed.
 
-<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/19057d6c-bf38-4d61-9421-e67912c92a1f" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/19057d6c-bf38-4d61-9421-e67912c92a1f" alt="Core Principles Flowchart" width="600" height="900">
+</p>
 
 
 ---
@@ -57,7 +62,9 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Clustering**: Emergent units form natural categories (e.g., “hot crackling fire” without labels).
 * **Optional symbolic fine-tuning**: Introduce small amounts of text/phoneme labels for alignment with human language.
 
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/4aa8e75a-1fdb-4a5c-b47c-8f2dfaf7df27" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4aa8e75a-1fdb-4a5c-b47c-8f2dfaf7df27" alt="Training Objectives Graph" width="800" height="800">
+</p>
 
 
 ---
@@ -102,7 +109,9 @@ Several projects hint at the direction of perceptual grounding, but none meet th
 **Key contrast:** GPGM requires all modalities to be captured **simultaneously and immutably**, forming an inseparable data record. Existing models are *fractional*—each explores a slice of the perceptual field, but none implement the closed, fail-closed circle of co-occurrence that prevents artifact stitching or modality drift.
 
 ---
-<img width="743" height="1174" alt="image" src="https://github.com/user-attachments/assets/cb9bcf36-b5e1-456a-8a93-e06323ce22eb" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb9bcf36-b5e1-456a-8a93-e06323ce22eb" alt="GPGM Development Path Journey" width="700" height="990">
+</p>
 
 
 ## 9. Conclusion
