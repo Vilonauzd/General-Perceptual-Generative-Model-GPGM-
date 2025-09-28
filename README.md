@@ -21,7 +21,7 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Human analogy**: Infants learn by clustering multimodal sensory inputs (sight, sound, touch, affect) before later mapping them to symbolic language.
 * **Opportunity**: By emulating this developmental trajectory, AI systems can learn grounded world models that are less prone to artifacts and more capable of genuine perceptual generalization.
 
-<img width="1004" height="803" alt="image" src="https://github.com/user-attachments/assets/f1466f0f-454d-44bb-8a78-a7046a856f89" />
+<img width="804" height="600" alt="image" src="https://github.com/user-attachments/assets/f1466f0f-454d-44bb-8a78-a7046a856f89" />
 
 
 ---
@@ -33,7 +33,7 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Layered symbolic interface**: Text or phoneme labels are introduced later as optional overlays, analogous to how humans learn to name objects they already perceive.
 * **Fail-closed capture**: Data integrity is enforced through redundancy, hashing, and secure wipe policies; partial or stitched segments are disallowed.
 
-<img width="1644" height="2499" alt="image" src="https://github.com/user-attachments/assets/19057d6c-bf38-4d61-9421-e67912c92a1f" />
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/19057d6c-bf38-4d61-9421-e67912c92a1f" />
 
 
 ---
@@ -54,7 +54,7 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Clustering**: Emergent units form natural categories (e.g., “hot crackling fire” without labels).
 * **Optional symbolic fine-tuning**: Introduce small amounts of text/phoneme labels for alignment with human language.
 
-<img width="1277" height="1301" alt="image" src="https://github.com/user-attachments/assets/4aa8e75a-1fdb-4a5c-b47c-8f2dfaf7df27" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/4aa8e75a-1fdb-4a5c-b47c-8f2dfaf7df27" />
 
 
 ---
