@@ -1,7 +1,8 @@
 # General-Perceptual-Generative-Model-GPGM
 
 **General Perceptual Generative Model (GPGM)**
-**Author:** Jonathon Marshall
+**Author:** 
+Jonathon Fitzhugh Marshall
 **Concept White Paper – Draft**
 
 ---
@@ -20,17 +21,8 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Human analogy**: Infants learn by clustering multimodal sensory inputs (sight, sound, touch, affect) before later mapping them to symbolic language.
 * **Opportunity**: By emulating this developmental trajectory, AI systems can learn grounded world models that are less prone to artifacts and more capable of genuine perceptual generalization.
 
-mindmap
-  root((GPGM Motivation))
-    Limits of text-first LLMs
-      Hallucinations
-      No physical grounding
-    Human Learning
-      Multisensory clustering
-      Symbols added later
-    Opportunity
-      Grounded world models
-      Fewer artifacts
+<img width="1704" height="1503" alt="image" src="https://github.com/user-attachments/assets/f1466f0f-454d-44bb-8a78-a7046a856f89" />
+
 
 ---
 
@@ -41,13 +33,8 @@ mindmap
 * **Layered symbolic interface**: Text or phoneme labels are introduced later as optional overlays, analogous to how humans learn to name objects they already perceive.
 * **Fail-closed capture**: Data integrity is enforced through redundancy, hashing, and secure wipe policies; partial or stitched segments are disallowed.
 
-flowchart TD
-  A[Multisensory Inputs<br/>vision · audio · tactile · thermal · affect] --> B{Integrity gates}
-  B -- pass --> C[Immutable segment seal<br/>(hashes · Merkle root · signed)]
-  B -- fail --> D[Secure wipe<br/>discard segment]
-  C --> E[Core pretraining<br/>(no text)]
-  E --> F[Perceptual clusters]
-  F --> G[Optional symbolic overlay<br/>(text/phoneme later)]
+<img width="1644" height="2499" alt="image" src="https://github.com/user-attachments/assets/19057d6c-bf38-4d61-9421-e67912c92a1f" />
+
 
 ---
 
@@ -67,13 +54,8 @@ flowchart TD
 * **Clustering**: Emergent units form natural categories (e.g., “hot crackling fire” without labels).
 * **Optional symbolic fine-tuning**: Introduce small amounts of text/phoneme labels for alignment with human language.
 
-graph LR
-  V[Vision] -->|Contrastive| E[Shared embedding]
-  A[Audio]  -->|Contrastive| E
-  T[Tactile] -->|Contrastive| E
-  H[Heat/Temp] -->|Contrastive| E
-  E -->|Predict next| P[Next sensory state]
-  E -->|Cluster| C[Emergent concepts]
+<img width="1277" height="1301" alt="image" src="https://github.com/user-attachments/assets/4aa8e75a-1fdb-4a5c-b47c-8f2dfaf7df27" />
+
 
 ---
 
