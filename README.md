@@ -21,7 +21,7 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Human analogy**: Infants learn by clustering multimodal sensory inputs (sight, sound, touch, affect) before later mapping them to symbolic language.
 * **Opportunity**: By emulating this developmental trajectory, AI systems can learn grounded world models that are less prone to artifacts and more capable of genuine perceptual generalization.
 
-<img width="804" height="600" alt="image" src="https://github.com/user-attachments/assets/f1466f0f-454d-44bb-8a78-a7046a856f89" />
+<img width="804" height="700" alt="image" src="https://github.com/user-attachments/assets/f1466f0f-454d-44bb-8a78-a7046a856f89" />
 
 
 ---
