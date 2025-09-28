@@ -20,6 +20,18 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Human analogy**: Infants learn by clustering multimodal sensory inputs (sight, sound, touch, affect) before later mapping them to symbolic language.
 * **Opportunity**: By emulating this developmental trajectory, AI systems can learn grounded world models that are less prone to artifacts and more capable of genuine perceptual generalization.
 
+mindmap
+  root((GPGM Motivation))
+    Limits of text-first LLMs
+      Hallucinations
+      No physical grounding
+    Human Learning
+      Multisensory clustering
+      Symbols added later
+    Opportunity
+      Grounded world models
+      Fewer artifacts
+
 ---
 
 ## 2. Core Principles
@@ -28,6 +40,14 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **No text in core weights**: Training excludes language tokens. Latent clusters form directly from perceptual co-occurrence.
 * **Layered symbolic interface**: Text or phoneme labels are introduced later as optional overlays, analogous to how humans learn to name objects they already perceive.
 * **Fail-closed capture**: Data integrity is enforced through redundancy, hashing, and secure wipe policies; partial or stitched segments are disallowed.
+
+flowchart TD
+  A[Multisensory Inputs<br/>vision · audio · tactile · thermal · affect] --> B{Integrity gates}
+  B -- pass --> C[Immutable segment seal<br/>(hashes · Merkle root · signed)]
+  B -- fail --> D[Secure wipe<br/>discard segment]
+  C --> E[Core pretraining<br/>(no text)]
+  E --> F[Perceptual clusters]
+  F --> G[Optional symbolic overlay<br/>(text/phoneme later)]
 
 ---
 
@@ -46,6 +66,14 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Predictive**: Anticipate the next sensory state (physics-grounded temporal modeling).
 * **Clustering**: Emergent units form natural categories (e.g., “hot crackling fire” without labels).
 * **Optional symbolic fine-tuning**: Introduce small amounts of text/phoneme labels for alignment with human language.
+
+graph LR
+  V[Vision] -->|Contrastive| E[Shared embedding]
+  A[Audio]  -->|Contrastive| E
+  T[Tactile] -->|Contrastive| E
+  H[Heat/Temp] -->|Contrastive| E
+  E -->|Predict next| P[Next sensory state]
+  E -->|Cluster| C[Emergent concepts]
 
 ---
 
@@ -89,6 +117,19 @@ Several projects hint at the direction of perceptual grounding, but none meet th
 **Key contrast:** GPGM requires all modalities to be captured **simultaneously and immutably**, forming an inseparable data record. Existing models are *fractional*—each explores a slice of the perceptual field, but none implement the closed, fail-closed circle of co-occurrence that prevents artifact stitching or modality drift.
 
 ---
+journey
+  title GPGM Development Path
+  section Pretraining
+    Multisensory capture: 5
+    Immutable pairing: 5
+    Perceptual clustering: 5
+  section Overlay
+    Minimal text labels: 3
+    Symbolic mapping: 3
+  section Applications
+    Hallucination-free generation: 5
+    Grounded reasoning: 4
+    Robotics transfer: 4
 
 ## 9. Conclusion
 
