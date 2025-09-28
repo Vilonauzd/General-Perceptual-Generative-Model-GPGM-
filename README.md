@@ -121,3 +121,10 @@ The **General Perceptual Generative Model (GPGM)** represents a shift away from 
 By training models to *see, hear, and feel* before *speaking*, GPGM aims to reduce hallucinations, improve grounding, and emulate the developmental path of human intelligence.
 
 ---
+---
+
+## Keywords & Topics
+
+AI • Multimodal • Generative Models • Perception • Machine Learning • Foundation Models •  
+Audiovisual • Sensory Data • GPGM • Hallucination-Free • Contrastive Learning • Predictive Models •  
+Embodied AI • Cognitive Architecture • Data Capture • Tactile Sensing • Temperature Sensing • Grounded Reasoning
