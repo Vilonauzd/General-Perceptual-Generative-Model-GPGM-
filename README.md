@@ -1,5 +1,3 @@
-⸻
-
 General Perceptual Generative Model (GPGM)
 
 Author:
