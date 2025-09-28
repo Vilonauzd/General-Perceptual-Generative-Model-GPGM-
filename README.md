@@ -33,7 +33,7 @@ Visual, auditory, tactile, and thermal data streams are **paired immutably** dur
 * **Layered symbolic interface**: Text or phoneme labels are introduced later as optional overlays, analogous to how humans learn to name objects they already perceive.
 * **Fail-closed capture**: Data integrity is enforced through redundancy, hashing, and secure wipe policies; partial or stitched segments are disallowed.
 
-<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/19057d6c-bf38-4d61-9421-e67912c92a1f" />
+<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/19057d6c-bf38-4d61-9421-e67912c92a1f" />
 
 
 ---
@@ -99,19 +99,8 @@ Several projects hint at the direction of perceptual grounding, but none meet th
 **Key contrast:** GPGM requires all modalities to be captured **simultaneously and immutably**, forming an inseparable data record. Existing models are *fractional*—each explores a slice of the perceptual field, but none implement the closed, fail-closed circle of co-occurrence that prevents artifact stitching or modality drift.
 
 ---
-journey
-  title GPGM Development Path
-  section Pretraining
-    Multisensory capture: 5
-    Immutable pairing: 5
-    Perceptual clustering: 5
-  section Overlay
-    Minimal text labels: 3
-    Symbolic mapping: 3
-  section Applications
-    Hallucination-free generation: 5
-    Grounded reasoning: 4
-    Robotics transfer: 4
+<img width="1043" height="1474" alt="image" src="https://github.com/user-attachments/assets/cb9bcf36-b5e1-456a-8a93-e06323ce22eb" />
+
 
 ## 9. Conclusion
 
